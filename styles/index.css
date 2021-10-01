@@ -20,7 +20,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90%;
+  width: 85%;
 }
 
 main h3 {
@@ -96,5 +96,45 @@ main #sign-up .terms p span {
   font-weight: 700;
   -webkit-text-decoration: underline 2px;
           text-decoration: underline 2px;
+}
+
+main #sign-up .ratio {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  border: 1px solid #dfdfdf;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+}
+
+main button {
+  background-color: #5112ce;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+main .already {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 400;
+}
+
+main .already .sign {
+  margin-left: 4px;
+  color: #5112ce;
+  opacity: 90%;
+  font-weight: 500;
 }
 /*# sourceMappingURL=index.css.map */

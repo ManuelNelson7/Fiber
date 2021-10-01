@@ -18,7 +18,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
 
     h3 {
         align-items: flex-end;
@@ -73,6 +73,40 @@ main {
                     text-decoration: underline 2px;
                 }
             }
+        }
+
+        .ratio {
+            -moz-appearance:none;
+            -webkit-appearance:none;
+            -o-appearance:none;
+            border: 1px solid $light-gray;
+            width: 18px;
+            height: 18px;
+            border-radius: 3px;
+        }
+    }
+
+    button {
+        background-color: $ultra-violet;
+        color: white;
+        padding: 1em;
+        border: none;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    .already {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-weight: 400;
+
+        .sign{
+            margin-left: 4px;
+            color: $ultra-violet;
+            opacity: 90%;
+            font-weight: 500;
         }
     }
 }
